@@ -8,17 +8,13 @@ In this project, I took a deep dive into the **National 2009 H1N1 Flu Survey** d
 ---
 
 ## Methods
-Getting the data ready was a huge part of the process. I built a solid preprocessing pipeline that handled missing values, scaled numeric data, and used binary encoding for categorical features so the models could run efficiently.
+Getting the data ready was a huge part of the process. I used python to perform EDA on the datasets, and then constructed the predictive models. The three models we used are shown below:
 
-Once the data was prepped, I tested out four different modeling approaches:
 * **Logistic Regression**
-* **Random Forest Classification**
-* **XGBoost (Extreme Gradient Boosting)**
-* **Random Forest Modeling**
-
-To get the best possible results, I used **Grid-Search Cross-Validation**. This allowed me to fine-tune the hyperparameters for each model, making sure they weren't just accurate, but also computationally efficient.
+* **LR + Forward Selection**
+* **Tuned Random Forest**
 
 ---
 
 ## Results
-The tuning definitely paid off. By focusing on the **ROC_AUC** score, I was able to maximize how well the models could tell the difference between people who got vaccinated and those who didn't. The final models strike a great balance between high predictive power and smart resource management.
+The three models all had a mean AUC above 0.8, however the Tuned Random Forest model did better than the two other models with a mean AUC of 0.8588 compared to 0.8394 for the Logistic Regression and 0.8359 for the LR with Forward Selection Model. The difference may seem small, however when you look at the scale of the US population, two percent is about 6 million people which is a big number. Some additional findings we discovered were that doctor recommendations serve as the single strongest predictor for the uptake of both vaccines. Additionally, age was found to be highly significant specifically for seasonal vaccine uptake. Finally, the analysis revealed that reducing features through forward selection actually decreased accuracy, which indicates that "minor" variables provide critical collective context for the model's performance.
