@@ -8,13 +8,21 @@ In this project, I took a deep dive into the **National 2009 H1N1 Flu Survey** d
 ---
 
 ## Methods
-Getting the data ready was a huge part of the process. I used python to perform EDA on the datasets, and then constructed the predictive models. The three models we used are shown below:
+The main tools that were used for this project were Python for the data transformation and model creation, and PowerBI for the visualizations. The three models we used are shown below:
 
 * **Logistic Regression**
 * **LR + Forward Selection**
 * **Tuned Random Forest**
 
----
 
 ## Results
-The three models all had a mean AUC above 0.8, however the Tuned Random Forest model did better than the two other models with a mean AUC of 0.8588 compared to 0.8394 for the Logistic Regression and 0.8359 for the LR with Forward Selection Model. The difference may seem small, however when you look at the scale of the US population, two percent is about 6 million people which is a big number. Some additional findings we discovered were that doctor recommendations serve as the single strongest predictor for the uptake of both vaccines. Additionally, age was found to be highly significant specifically for seasonal vaccine uptake. Finally, the analysis revealed that reducing features through forward selection actually decreased accuracy, which indicates that "minor" variables provide critical collective context for the model's performance.
+The three models all had a mean AUC above 0.8, however the Tuned Random Forest model did better than the two other models with a mean AUC of 0.8588 compared to 0.8394 for the Logistic Regression and 0.8359 for the LR with Forward Selection Model. The difference may seem small, however when you look at the scale of the US population, two percent is about 6 million people which is a big number. 
+
+![Model Setup](assets/Model_AUC.png)
+
+
+Some additional findings we discovered were that doctor recommendations serve as the single strongest predictor for the uptake of both vaccines. Additionally, age was found to be highly significant specifically for seasonal vaccine uptake. Finally, the analysis revealed that reducing features through forward selection actually decreased accuracy, which indicates that minor variables provide critical collective context for the model's performance.
+
+
+![Model Setup](assets/Features.png)
+![Model Setup](assets/Age_Uptake.png)
