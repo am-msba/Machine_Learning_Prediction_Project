@@ -14,6 +14,7 @@ The main tools that were used for this project were Python for the data transfor
 * **LR + Forward Selection**
 * **Tuned Random Forest**
 
+---
 
 ## Results
 The three models all had a mean AUC above 0.8, however the Tuned Random Forest model did better than the two other models with a mean AUC of 0.8588 compared to 0.8394 for the Logistic Regression and 0.8359 for the LR with Forward Selection Model. The difference may seem small, however when you look at the scale of the US population, two percent is about 6 million people which is a big number. 
