@@ -1,0 +1,10 @@
+title: Machine Learning Project
+
+theme: jekyll-theme-minimal
+
+#External navigation links
+nav_links:
+  - title: "Home"
+    url: "https://am-msba.github.io/Portfolio/"
+  - title: "MIP Optimizer"
+    url: "https://am-msba.github.io/MIP-Optimization-Solver/"
