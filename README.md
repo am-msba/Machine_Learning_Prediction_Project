@@ -1,4 +1,4 @@
-[**Home**](https://am-msba.github.io/Portfolio/) | [**MIP Optimizer**](https://am-msba.github.io/MIP_Optimization_Solver/)
+[**Home**](https://am-msba.github.io/Portfolio/) | [**MIP Optimizer**](https://am-msba.github.io/MIP_Optimization_Solver/) | [**AWS Prediction**](https://am-msba.github.io/Amazon_AWS_Predictor/)
 
 
 ## Background
