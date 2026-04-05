@@ -1,5 +1,6 @@
-[**Home**](https://am-msba.github.io/Portfolio/) | [**MIP Optimizer**](https://am-msba.github.io/MIP_Optimization_Solver/) | [**AWS Prediction**](https://am-msba.github.io/Amazon_AWS_Predictor/)
-
+<a href="https://am-msba.github.io/Portfolio/" style="color: #c5050c; font-weight: bold;">Home</a> | 
+<a href="https://am-msba.github.io/MIP_Optimization_Solver/" style="color: #c5050c; font-weight: bold;">MIP Optimizer</a> | 
+<a href="https://am-msba.github.io/Amazon_AWS_Predictor/" style="color: #c5050c; font-weight: bold;">AWS Prediction</a>
 
 ## Background
 In this project, I took a deep dive into the **National 2009 H1N1 Flu Survey** dataset. The goal was simple: use predictive modeling to figure out how likely someone was to get the **2009 H1N1 flu vaccine** and the **seasonal flu vaccine**. By analyzing survey responses, I wanted to see if we could spot the patterns behind why people choose to get vaccinated during a public health crisis.
