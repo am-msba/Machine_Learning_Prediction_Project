@@ -8,3 +8,5 @@ nav_links:
     url: "https://am-msba.github.io/Portfolio/"
   - title: "MIP Optimizer"
     url: "https://am-msba.github.io/MIP-Optimization-Solver/"
+  - title: "AWS Prediction"
+    url: "https://am-msba.github.io/Amazon_AWS_Predictor/"
